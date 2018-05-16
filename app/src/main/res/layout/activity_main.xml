@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wintertrain.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/dialog_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog activity"
+        android:textAllCaps="false"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/Lucky_Learn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lucky Learn"
+        android:textAllCaps="false"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/fragment_learning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fragment_learning"
+        android:onClick="onClick"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/view_pager_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jump"
+        android:onClick="onClick"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/Permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Permission"
+        android:onClick="onClick"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/menu_learn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="menu learn"
+        android:onClick="onClick"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/recycle_view_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="recycle view activity"
+        android:onClick="onClick"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>
